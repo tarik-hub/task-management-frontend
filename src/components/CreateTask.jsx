@@ -19,7 +19,7 @@ const CreateTask = () => {
     e.preventDefault();
     try {
       await createTask(task);
-      alert('Task created successfully');
+      alert('Task created successfully !');
     } catch (error) {
       alert('Error creating task');
     }
